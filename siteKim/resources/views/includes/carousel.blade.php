@@ -1,5 +1,5 @@
 <div class="banner-carousel banner-carousel-1 mb-0">
-    <div class="banner-carousel-item" style="background-image:url({{ asset('front-end/images/4M4A0611.jpg'), env('REDIRECT_HTTPS')) }}">
+    <div class="banner-carousel-item" style="background-image:url({{ asset('front-end/images/4M4A0611.jpg'), env('REDIRECT_HTTPS') }})">
         <div class="slider-content">
             <div class="container h-100">
                 <div class="row align-items-center h-100">
@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    <div class="banner-carousel-item" style="background-image:url({{ asset('front-end/images/4M4A0679.jpg', env('REDIRECT_HTTPS'))) }}">
+    <div class="banner-carousel-item" style="background-image:url({{ asset('front-end/images/4M4A0679.jpg', env('REDIRECT_HTTPS')) }})">
         <div class="slider-content text-left">
             <div class="container h-100">
                 <div class="row align-items-center h-100">
@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div class="banner-carousel-item" style="background-image:url({{ asset('front-end/images/4M4A0616.jpg', env('REDIRECT_HTTPS'))) }}">
+    <div class="banner-carousel-item" style="background-image:url({{ asset('front-end/images/4M4A0616.jpg', env('REDIRECT_HTTPS')) }})">
         <div class="slider-content text-right">
             <div class="container h-100">
                 <div class="row align-items-center h-100">
