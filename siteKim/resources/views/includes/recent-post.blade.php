@@ -6,7 +6,7 @@
                 <li class="d-flex align-items-center">
                     <div class="posts-thumb">
                         <a href="#"><img loading="lazy" alt="news-image"
-                                src="{{ asset('storage/project_images/'.$item->project_image1) }}"></a>
+                                src="{{ asset('storage/project_images/'.$item->project_image1, env('REDIRECT_HTTPS')) }}"></a>
                     </div>
                     <div class="post-info">
                         <h4 class="entry-title">

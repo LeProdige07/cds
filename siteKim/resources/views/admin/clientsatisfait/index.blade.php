@@ -4,8 +4,8 @@
 @endsection
 @section('style')
     <!-- DataTables -->
-    <link rel="stylesheet" href="{{asset("backend/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css")}}">
-    <link rel="stylesheet" href="{{asset("backend/plugins/datatables-responsive/css/responsive.bootstrap4.min.css")}}">
+    <link rel="stylesheet" href="{{asset("backend/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css", env('REDIRECT_HTTPS'))}}">
+    <link rel="stylesheet" href="{{asset("backend/plugins/datatables-responsive/css/responsive.bootstrap4.min.css", env('REDIRECT_HTTPS'))}}">
 @endsection
 @section('breadcrumb')
 <li class="breadcrumb-item active">Partenaires</li>
@@ -53,7 +53,7 @@
                                                 <td>{{ $clientsatisfait->designation }}</td>
                                                 <td>
 
-                                                    <img src="{{asset("storage/clientsatisfait_images/$clientsatisfait->logo_client ")}}"
+                                                    <img src="{{asset("storage/clientsatisfait_images/$clientsatisfait->logo_client ", env('REDIRECT_HTTPS'))}}"
                                                         style="height : 50px; width : 50px" class="img-circle elevation-2"
                                                         alt="clientsatisfait Image">
                                                 </td>
@@ -101,11 +101,11 @@
 @endsection
 @section('scripts')
     <!-- DataTables -->
-    <script src="{{asset("backend/plugins/datatables/jquery.dataTables.min.js")}}"></script>
-    <script src="{{asset("backend/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js")}}"></script>
-    <script src="{{asset("backend/plugins/datatables-responsive/js/dataTables.responsive.min.js")}}"></script>
-    <script src="{{asset("backend/plugins/datatables-responsive/js/responsive.bootstrap4.min.js")}}"></script>
-    <script src="{{asset("backend/dist/js/bootbox.min.js")}}"></script>
+    <script src="{{asset("backend/plugins/datatables/jquery.dataTables.min.js", env('REDIRECT_HTTPS'))}}"></script>
+    <script src="{{asset("backend/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js", env('REDIRECT_HTTPS'))}}"></script>
+    <script src="{{asset("backend/plugins/datatables-responsive/js/dataTables.responsive.min.js", env('REDIRECT_HTTPS'))}}"></script>
+    <script src="{{asset("backend/plugins/datatables-responsive/js/responsive.bootstrap4.min.js", env('REDIRECT_HTTPS'))}}"></script>
+    <script src="{{asset("backend/dist/js/bootbox.min.js", env('REDIRECT_HTTPS'))}}"></script>
     <script>
         $(function() {
             $("#example1").DataTable({

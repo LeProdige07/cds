@@ -13,7 +13,7 @@
             <div class="col-lg-4">
                 <div class="ts-service-box d-flex">
                     <div class="ts-service-box-img">
-                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon1.png') }}"
+                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon1.png', env('REDIRECT_HTTPS')) }}"
                             alt="service-icon">
                     </div>
                     <div class="ts-service-box-info">
@@ -24,7 +24,7 @@
 
                 <div class="ts-service-box d-flex">
                     <div class="ts-service-box-img">
-                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon2.png') }}"
+                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon2.png', env('REDIRECT_HTTPS')) }}"
                             alt="service-icon">
                     </div>
                     <div class="ts-service-box-info">
@@ -35,7 +35,7 @@
 
                 <div class="ts-service-box d-flex">
                     <div class="ts-service-box-img">
-                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon3.png') }}"
+                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon3.png', env('REDIRECT_HTTPS')) }}"
                             alt="service-icon">
                     </div>
                     <div class="ts-service-box-info">
@@ -47,14 +47,14 @@
             </div><!-- Col end -->
 
             <div class="col-lg-4 text-center">
-                <img loading="lazy" class="img-fluid" src="{{ asset('front-end/images/4M4A0669.jpg') }}"
+                <img loading="lazy" class="img-fluid" src="{{ asset('front-end/images/4M4A0669.jpg', env('REDIRECT_HTTPS')) }}"
                     alt="service-avater-image">
             </div><!-- Col end -->
 
             <div class="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
                 <div class="ts-service-box d-flex">
                     <div class="ts-service-box-img">
-                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon4.png') }}"
+                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon4.png', env('REDIRECT_HTTPS')) }}"
                             alt="service-icon">
                     </div>
                     <div class="ts-service-box-info">
@@ -65,7 +65,7 @@
 
                 <div class="ts-service-box d-flex">
                     <div class="ts-service-box-img">
-                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon5.png') }}"
+                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon5.png', env('REDIRECT_HTTPS')) }}"
                             alt="service-icon">
                     </div>
                     <div class="ts-service-box-info">
@@ -76,7 +76,7 @@
 
                 <div class="ts-service-box d-flex">
                     <div class="ts-service-box-img">
-                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon6.png') }}"
+                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon6.png', env('REDIRECT_HTTPS')) }}"
                             alt="service-icon">
                     </div>
                     <div class="ts-service-box-info">

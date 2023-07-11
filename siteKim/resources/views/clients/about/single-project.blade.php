@@ -45,7 +45,7 @@
 
                             <div class="logo">
                                 <a class="d-block" href="{{ url('/') }}">
-                                    <img loading="lazy" src="{{ asset('front-end/images/logoValid4.jpeg') }}"
+                                    <img loading="lazy" src="{{ asset('front-end/images/logoValid4.jpeg', env('REDIRECT_HTTPS')) }}"
                                         alt="Congo Drone Service">
                                 </a>
                             </div>
@@ -111,23 +111,23 @@
                     <div id="page-slider" class="page-slider small-bg">
                         <div class="item">
                             <img loading="lazy" class="img-fluid"
-                                src="{{ asset('storage/project_images/' . $projectOne->project_image2) }}"
+                                src="{{ asset('storage/project_images/' . $projectOne->project_image2, env('REDIRECT_HTTPS')) }}"
                                 alt="project-image" />
                         </div>
 
                         <div class="item">
                             <img loading="lazy" class="img-fluid"
-                                src="{{ asset('storage/project_images/' . $projectOne->project_image1) }}"
+                                src="{{ asset('storage/project_images/' . $projectOne->project_image1, env('REDIRECT_HTTPS')) }}"
                                 alt="project-image" />
                         </div>
                         <div class="item">
                             <img loading="lazy" class="img-fluid"
-                                src="{{ asset('storage/project_images/' . $projectOne->project_image3) }}"
+                                src="{{ asset('storage/project_images/' . $projectOne->project_image3, env('REDIRECT_HTTPS')) }}"
                                 alt="project-image" />
                         </div>
                         <div class="item">
                             <img loading="lazy" class="img-fluid"
-                                src="{{ asset('storage/project_images/' . $projectOne->project_image4) }}"
+                                src="{{ asset('storage/project_images/' . $projectOne->project_image4, env('REDIRECT_HTTPS')) }}"
                                 alt="project-image" />
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                     <div class="col-lg-4 col-md-6 footer-widget footer-about">
                         <h3 class="widget-title">A Propos</h3>
                         <img loading="lazy" width="200px" class="footer-logo"
-                            src="{{ asset('front-end/images/logoValide2.jpeg') }}" alt="Constra">
+                            src="{{ asset('front-end/images/logoValide2.jpeg', env('REDIRECT_HTTPS')) }}" alt="Constra">
                         <p>Congodrone Service vous offre des services à la hauteur de vos attentes
                              et s'assure de la satisfaction de ses clients.</p>
                         <div class="footer-social">

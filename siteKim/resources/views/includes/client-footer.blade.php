@@ -4,7 +4,7 @@
             <div class="row justify-content-between">
                 <div class="col-lg-4 col-md-6 footer-widget footer-about">
                     <h3 class="widget-title">A Propos</h3>
-                    <img loading="lazy" width="200px" class="footer-logo" src="{{ asset('front-end/images/logoValide2.jpeg') }}"
+                    <img loading="lazy" width="200px" class="footer-logo" src="{{ asset('front-end/images/logoValide2.jpeg', env('REDIRECT_HTTPS')) }}"
                         alt="Constra">
                     <p>Congodrone Service vous offre des services à la hauteur de vos attentes
                         et s'assure de la satisfaction de ses clients.</p>

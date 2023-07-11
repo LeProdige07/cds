@@ -22,7 +22,7 @@
 
                             <div class="quote-item-footer">
                                 <img loading="lazy" class="testimonial-thumb"
-                                    src="{{ asset('front-end/images/4M4A0669.jpg') }}" alt="testimonial">
+                                    src="{{ asset('front-end/images/4M4A0669.jpg', env('REDIRECT_HTTPS')) }}" alt="testimonial">
                                 <div class="quote-item-info">
                                     <h3 class="quote-author">Cyrielle Ntumba</h3>
                                     <span class="quote-subtext">CEO, Congodrone Service</span>
@@ -53,7 +53,7 @@
                         @foreach ($detail as $item)
                             <div class="item">
                                 <img loading="lazy" class="img-fluid"
-                                    src="{{ asset("storage/detail_images/$item->detail_image ") }}"
+                                    src="{{ asset("storage/detail_images/$item->detail_image ", env('REDIRECT_HTTPS')) }}"
                                     alt="project-slider-image" />
                             </div>
                         @endforeach

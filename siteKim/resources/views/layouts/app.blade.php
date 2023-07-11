@@ -10,14 +10,14 @@
     <title>congodrone service | Administrateur</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.js', env('REDIRECT_HTTPS')) }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link rel="icon" type="image/png" href="{{ asset('front-end/images/logo01.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('front-end/images/logo01.png', env('REDIRECT_HTTPS')) }}">
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css', env('REDIRECT_HTTPS')) }}" rel="stylesheet">
 
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>

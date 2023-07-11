@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="{{ url('/') }}" class="brand-link">
-        <img src="{{ asset('front-end/images/logoValid4.jpeg') }}" alt="congodrone service Logo" class="brand-image img-circle elevation-3">
+        <img src="{{ asset('front-end/images/logoValid4.jpeg', env('REDIRECT_HTTPS')) }}" alt="congodrone service Logo" class="brand-image img-circle elevation-3">
         <span class="brand-text font-weight-light">CONGODRONE SERVICE</span>
     </a>
 

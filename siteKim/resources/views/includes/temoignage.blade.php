@@ -35,7 +35,7 @@
                         <div class="col-sm-4 col-6">
                             <figure class="clients-logo">
                                 <a href="#!"><img loading="lazy" class="img-fluid"
-                                        src="{{ asset("storage/clientsatisfait_images/$item->logo_client ") }}"
+                                        src="{{ asset("storage/clientsatisfait_images/$item->logo_client ", env('REDIRECT_HTTPS')) }}"
                                         alt="clients-logo" /></a>
                             </figure>
                         </div>

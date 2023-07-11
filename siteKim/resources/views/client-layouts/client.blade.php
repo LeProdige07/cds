@@ -19,23 +19,23 @@
 
     <!-- Favicon
 ================================================== -->
-    <link rel="icon" type="image/png" href="{{ asset('front-end/images/logo01.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('front-end/images/logo01.png', env('REDIRECT_HTTPS')) }}">
 
     <!-- CSS
 ================================================== -->
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="{{ asset('front-end/plugins/bootstrap/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-end/plugins/bootstrap/bootstrap.min.css', env('REDIRECT_HTTPS')) }}">
     <!-- FontAwesome -->
-    <link rel="stylesheet" href="{{ asset('front-end/plugins/fontawesome/css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-end/plugins/fontawesome/css/all.min.css', env('REDIRECT_HTTPS')) }}">
     <!-- Animation -->
-    <link rel="stylesheet" href="{{ asset('front-end/plugins/animate-css/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-end/plugins/animate-css/animate.css', env('REDIRECT_HTTPS')) }}">
     <!-- slick Carousel -->
-    <link rel="stylesheet" href="{{ asset('front-end/plugins/slick/slick.css') }}">
-    <link rel="stylesheet" href="{{ asset('front-end/plugins/slick/slick-theme.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-end/plugins/slick/slick.css', env('REDIRECT_HTTPS')) }}">
+    <link rel="stylesheet" href="{{ asset('front-end/plugins/slick/slick-theme.css', env('REDIRECT_HTTPS')) }}">
     <!-- Colorbox -->
-    <link rel="stylesheet" href="{{ asset('front-end/plugins/colorbox/colorbox.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-end/plugins/colorbox/colorbox.css', env('REDIRECT_HTTPS')) }}">
     <!-- Template styles-->
-    <link rel="stylesheet" href="{{ asset('front-end/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-end/css/style.css', env('REDIRECT_HTTPS')) }}">
 
 </head>
 
@@ -52,25 +52,25 @@
     ================================================== -->
 
         <!-- initialize jQuery Library -->
-        <script src="{{ asset('front-end/plugins/jQuery/jquery.min.js') }}"></script>
+        <script src="{{ asset('front-end/plugins/jQuery/jquery.min.js', env('REDIRECT_HTTPS')) }}"></script>
         <!-- Bootstrap jQuery -->
-        <script src="{{ asset('front-end/plugins/bootstrap/bootstrap.min.js') }}" defer></script>
+        <script src="{{ asset('front-end/plugins/bootstrap/bootstrap.min.js', env('REDIRECT_HTTPS')) }}" defer></script>
         <!-- Slick Carousel -->
-        <script src="{{ asset('front-end/plugins/slick/slick.min.js') }}"></script>
-        <script src="{{ asset('front-end/plugins/slick/slick-animation.min.js') }}"></script>
+        <script src="{{ asset('front-end/plugins/slick/slick.min.js', env('REDIRECT_HTTPS')) }}"></script>
+        <script src="{{ asset('front-end/plugins/slick/slick-animation.min.js', env('REDIRECT_HTTPS')) }}"></script>
         <!-- Color box -->
-        <script src="{{ asset('front-end/plugins/colorbox/jquery.colorbox.js') }}"></script>
+        <script src="{{ asset('front-end/plugins/colorbox/jquery.colorbox.js', env('REDIRECT_HTTPS')) }}"></script>
         <!-- shuffle -->
-        <script src="{{ asset('front-end/plugins/shuffle/shuffle.min.js') }}" defer></script>
+        <script src="{{ asset('front-end/plugins/shuffle/shuffle.min.js', env('REDIRECT_HTTPS')) }}" defer></script>
 
 
         <!-- Google Map API Key-->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
         <!-- Google Map Plugin-->
-        <script src="{{ asset('front-end/plugins/google-map/map.js') }}" defer></script>
+        <script src="{{ asset('front-end/plugins/google-map/map.js', env('REDIRECT_HTTPS')) }}" defer></script>
 
         <!-- Template custom -->
-        <script src="{{ asset('front-end/js/script.js') }}"></script>
+        <script src="{{ asset('front-end/js/script.js', env('REDIRECT_HTTPS')) }}"></script>
 
     </div>
     <!-- Body inner end -->

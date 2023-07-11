@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 ts-facts">
                     <div class="ts-facts-img">
-                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/fact1.png') }}" alt="facts-img">
+                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/fact1.png', env('REDIRECT_HTTPS')) }}" alt="facts-img">
                     </div>
                     <div class="ts-facts-content">
                         <h2 class="ts-facts-num"><span class="counterUp" data-count="3">0 </span>X</h2>
@@ -25,7 +25,7 @@
 
                 <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-sm-0">
                     <div class="ts-facts-img">
-                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/fact2.png') }}" alt="facts-img">
+                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/fact2.png', env('REDIRECT_HTTPS')) }}" alt="facts-img">
                     </div>
                     <div class="ts-facts-content">
                         <h2 class="ts-facts-num"><span class="counterUp" data-count="4">0</span>X</h2>
@@ -40,7 +40,7 @@
 
                 <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
                     <div class="ts-facts-img">
-                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/fact3.png') }}" alt="facts-img">
+                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/fact3.png', env('REDIRECT_HTTPS')) }}" alt="facts-img">
                     </div>
                     <div class="ts-facts-content">
                         <h2 class="ts-facts-num"><span class="counterUp" data-count="30">0</span>X</h2>
@@ -54,7 +54,7 @@
 
                 <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
                     <div class="ts-facts-img">
-                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/fact4.png') }}" alt="facts-img">
+                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/fact4.png', env('REDIRECT_HTTPS')) }}" alt="facts-img">
                     </div>
                     <div class="ts-facts-content">
                         <h2 class="ts-facts-num">+<span class="counterUp" data-count="89">0</span>%</h2>
@@ -68,13 +68,13 @@
             <div class="row">
                 <div class="col-5">
                     <div class="ts-service-image-wrapper">
-                        <img loading="lazy" class="w-100" src="{{ asset('front-end/images/services/service3.jpg') }}"
+                        <img loading="lazy" class="w-100" src="{{ asset('front-end/images/services/service3.jpg', env('REDIRECT_HTTPS')) }}"
                             alt="service-image">
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="ts-service-box-img">
-                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon6.png') }}"
+                        <img loading="lazy" src="{{ asset('front-end/images/icon-image/service-icon6.png', env('REDIRECT_HTTPS')) }}"
                             alt="service-icon">
                     </div>
                     <div class="ts-facts-content">

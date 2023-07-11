@@ -1,4 +1,4 @@
-<div id="banner-area" class="banner-area" style="background-image:url({{ asset('front-end/images/banner/banner.jpg') }})">
+<div id="banner-area" class="banner-area" style="background-image:url({{ asset('front-end/images/banner/banner.jpg') }}, env('REDIRECT_HTTPS'))">
     <div class="banner-text">
       <div class="container">
           <div class="row">

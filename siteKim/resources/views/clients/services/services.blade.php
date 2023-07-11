@@ -20,7 +20,7 @@ Nos services
                             </div>
                             <div class="d-flex">
                                 <div class="ts-service-box-img">
-                                    <img loading="lazy" src="{{ asset('front-end/images/icon-image/fact2.png') }}"
+                                    <img loading="lazy" src="{{ asset('front-end/images/icon-image/fact2.png', env('REDIRECT_HTTPS')) }}"
                                         alt="service-icon">
                                 </div>
                                 <div class="ts-service-info">

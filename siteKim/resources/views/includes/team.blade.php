@@ -15,7 +15,7 @@
                             <div class="ts-team-wrapper">
                                 <div class="team-img-wrapper">
                                     <img loading="lazy" class="w-100"
-                                        src="{{ asset("storage/personnel_images/".$item->image) }}" alt="team-img">
+                                        src="{{ asset("storage/personnel_images/".$item->image, env('REDIRECT_HTTPS')) }}" alt="team-img">
                                 </div>
                                 <div class="ts-team-content">
                                     <h3 class="ts-name">{{ $item->names }}</h3>

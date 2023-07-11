@@ -17,7 +17,7 @@ Nouvelles | {{ $singleNews->nouvelle_titre }}
                     <div class="post-content post-single">
                         <div class="post-media post-image">
                             <img loading="lazy" style="height : 500px; width : 600px"
-                                src="{{asset("storage/nouvelle_images/".$singleNews->nouvelle_image)}}" class="img-fluid"
+                                src="{{asset("storage/nouvelle_images/".$singleNews->nouvelle_image, env('REDIRECT_HTTPS'))}}" class="img-fluid"
                                 alt="post-image">
                         </div>
 
