@@ -4,7 +4,7 @@
             <div class="col-lg-8 col-md-8">
                 <ul class="top-info text-center text-md-left">
                     <li><i class="fas fa-map-marker-alt"></i>
-                        <p class="info-text">Kinshasa, kin 94126, RDC</p>
+                        <p class="info-text">Kinshasa/Gombe, Av Mwenwditu N°6, RDC</p>
                     </li>
                 </ul>
             </div>
@@ -21,9 +21,6 @@
                         </a>
                         <a title="Instagram" href="#">
                             <span class="social-icon"><i class="fab fa-instagram"></i></span>
-                        </a>
-                        <a title="Linkdin" href="#">
-                            <span class="social-icon"><i class="fab fa-github"></i></span>
                         </a>
                     </li>
                 </ul>

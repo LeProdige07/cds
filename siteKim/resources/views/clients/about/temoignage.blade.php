@@ -12,7 +12,7 @@ Les témoignages sur CDS
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
-                    <h3 class="section-sub-title mb-4">What People Said</h3>
+                    <h3 class="section-sub-title mb-4">Les témoignages</h3>
                 </div>
             </div>
             <!--/ Title row end -->

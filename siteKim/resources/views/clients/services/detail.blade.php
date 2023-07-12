@@ -10,7 +10,7 @@ Services | {{ $servicesName->service_name }}
                 <div class="col-lg-8 col-md-8">
                     <ul class="top-info text-center text-md-left">
                         <li><i class="fas fa-map-marker-alt"></i>
-                            <p class="info-text">Kinshasa, kin 94126, RDC</p>
+                            <p class="info-text">Kinshasa/Gombe, Av Mwenwditu N°6, RDC</p>
                         </li>
                     </ul>
                 </div>
@@ -27,9 +27,6 @@ Services | {{ $servicesName->service_name }}
                             </a>
                             <a title="Instagram" href="#">
                                 <span class="social-icon"><i class="fab fa-instagram"></i></span>
-                            </a>
-                            <a title="Linkdin" href="#">
-                                <span class="social-icon"><i class="fab fa-github"></i></span>
                             </a>
                         </li>
                     </ul>
@@ -127,7 +124,6 @@ Services | {{ $servicesName->service_name }}
                                 <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                                 </li>
                                 <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#" aria-label="Github"><i class="fab fa-github"></i></a></li>
                             </ul>
                         </div><!-- Footer social end -->
                     </div><!-- Col end -->
@@ -163,7 +159,7 @@ Services | {{ $servicesName->service_name }}
                                 <script>
                                     document.write(new Date().getFullYear())
                                 </script>, Designed &amp; Developed by <a
-                                    href="mailto:Kimengineering15@gmail.com">Kim Engineering</a>
+                                    href="https://kimengineering.net/">Kim Engineering</a>
                             </span>
                         </div>
                     </div>

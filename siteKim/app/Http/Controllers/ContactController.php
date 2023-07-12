@@ -41,7 +41,7 @@ class ContactController extends Controller
         $contact->statut = 0;
         $contact->save();
 
-        return back()->with(['status' => 'Merci de nous avoir contacter ! Nous vous répondrons au plus vite.']);
+        return back()->with(['status' => 'Merci de nous avoir contacté ! Nous vous répondrons au plus vite.']);
     }
 
     public function contact(){

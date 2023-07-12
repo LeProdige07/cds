@@ -34,7 +34,7 @@ A propos de nous
                   </div>
                 </div><!-- Item 1 end -->
 
-                <div class="item" style="background-image:url({{ asset('front-end/images/slider-pages/slide-page2.jpg') }}, env('REDIRECT_HTTPS'))">
+                <div class="item" style="background-image:url({{ asset('front-end/images/slider-pages/slide-page2.jpg', env('REDIRECT_HTTPS')) }})">
                   <div class="container">
                       <div class="box-slider-content">
                         <div class="box-slider-text">
@@ -44,7 +44,7 @@ A propos de nous
                   </div>
                 </div><!-- Item 1 end -->
 
-                <div class="item" style="background-image:url({{ asset('front-end/images/slider-pages/slide-page3.jpg') }}, env('REDIRECT_HTTPS'))">
+                <div class="item" style="background-image:url({{ asset('front-end/images/slider-pages/slide-page3.jpg', env('REDIRECT_HTTPS')) }})">
                   <div class="container">
                       <div class="box-slider-content">
                         <div class="box-slider-text">
