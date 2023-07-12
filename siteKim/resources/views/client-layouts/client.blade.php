@@ -19,7 +19,7 @@
 
     <!-- Favicon
 ================================================== -->
-    <link rel="icon" type="image/png" href="{{ asset('front-end/images/logo01.png', env('REDIRECT_HTTPS')) }}">
+    <link rel="icon" type="image/png" href="{{ asset('front-end/images/logoValid4.jpeg', env('REDIRECT_HTTPS')) }}">
 
     <!-- CSS
 ================================================== -->
