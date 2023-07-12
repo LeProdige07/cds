@@ -68,7 +68,7 @@
             <div class="row">
                 <div class="col-5">
                     <div class="ts-service-image-wrapper">
-                        <img loading="lazy" class="w-100" src="{{ asset('front-end/images/services/service3.jpg', env('REDIRECT_HTTPS')) }}"
+                        <img loading="lazy" class="w-100" src="{{ asset('front-end/images/logoValide2.jpeg', env('REDIRECT_HTTPS')) }}"
                             alt="service-image">
                     </div>
                 </div>
