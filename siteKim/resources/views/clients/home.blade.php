@@ -16,7 +16,6 @@ Page d'accueil
 
     @include('includes.single-project')
 
-    @include('includes.newsletter')
 
     @include('includes.contact')
 

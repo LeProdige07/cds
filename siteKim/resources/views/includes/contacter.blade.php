@@ -54,7 +54,7 @@
             {{-- <div id="map" class="map" data-latitude="-4.322447" data-longitude="15.307045" --}}
             {{-- data-marker="images/marker.png" data-marker-name="Constra"></div> --}}
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.530466313132!2d15.28418076585197!3d-4.310912486077977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a33652a0f99ab%3A0xf6187f06dca81856!2sArr%C3%AAt%2024%20NOVEMBRE!5e0!3m2!1sen!2scd!4v1682525794550!5m2!1sen!2scd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.4934890099385!2d15.281714799999996!3d-4.317971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a33d971e41761%3A0xa9e0e70ccdefdb6d!2sAve%20Mwene-Ditu%2C%20Kinshasa!5e0!3m2!1sfr!2scd!4v1689178024433!5m2!1sfr!2scd"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>

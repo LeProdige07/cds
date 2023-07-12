@@ -3,14 +3,14 @@
         <div class="row text-center">
             <div class="col-lg-12">
                 <h2 class="section-title">Travail d'excellence</h2>
-                <h3 class="section-sub-title">All Projects</h3>
+                <h3 class="section-sub-title">Tous nos projets</h3>
             </div>
         </div>
         <div class="col-12">
             <div class="shuffle-btn-group">
                 <label class="active" for="all">
-                    <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Show
-                    All
+                    <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Tout Voir
+                    
                 </label>
                 {{-- @foreach ($project as $item)
                     <label for="{{ $item->project_service }}">

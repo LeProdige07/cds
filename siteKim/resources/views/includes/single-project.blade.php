@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-12">
-                <h3 class="section-sub-title">Recent Projects</h3>
+                <h3 class="section-sub-title">LES PROJETS RECENTS</h3>
             </div>
         </div>
         <div class="row">
