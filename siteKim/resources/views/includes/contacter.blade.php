@@ -17,7 +17,7 @@
                     </span>
                     <div class="ts-service-box-content">
                         <h4>Visiter Nos Bureaux</h4>
-                        <p>Kinshasa, kin 94126, RDC</p>
+                        <p>Kinshasa/Gombe, Av Mwenwditu N°6, RDC</p>
                     </div>
                 </div>
             </div><!-- Col 1 end -->
@@ -29,7 +29,7 @@
                     </span>
                     <div class="ts-service-box-content">
                         <h4>Nous envoyer un mail</h4>
-                        <p>office@Constra.com</p>
+                        <p>cyriellenyamabo05@gmail.com</p>
                     </div>
                 </div>
             </div><!-- Col 2 end -->
@@ -41,7 +41,7 @@
                     </span>
                     <div class="ts-service-box-content">
                         <h4>Appelez-nous</h4>
-                        <p>(+243) 810-000-000</p>
+                        <p>(+243) 827868560</p>
                     </div>
                 </div>
             </div><!-- Col 3 end -->
@@ -123,7 +123,7 @@
                         @endif
                     </div>
                     <div class="text-center"><br>
-                        <button class="btn btn-primary solid blank" type="submit">Send Message</button>
+                        <button class="btn btn-primary solid blank" type="submit">Envoyer</button>
                     </div>
                 </form>
             </div>
