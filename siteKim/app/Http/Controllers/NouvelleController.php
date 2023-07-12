@@ -44,7 +44,7 @@ class NouvelleController extends Controller
         $this->validate($request, [
             'titre' => 'required',
             'description' => 'required',
-            'nouvelle_image' => 'image|nullable|max:5999',
+            'nouvelle_image' => 'image|nullable',
             'sujet' => 'required',
             'service' => 'required',
 
@@ -116,7 +116,7 @@ class NouvelleController extends Controller
         $this->validate($request, [
             'nouvelle_titre' => 'required',
             'nouvelle_contenu' => 'required',
-            'nouvelle_image' => 'image|nullable|max:5999',
+            'nouvelle_image' => 'image|nullable',
             'sujet' => 'required',
             'service' => 'required',
         ]);

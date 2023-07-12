@@ -41,7 +41,7 @@ class ClientSatisfaitController extends Controller
         //
         $this->validate($request, [
             'name' => 'required',
-            'clientsatisfait_image' => 'image|nullable|max:5999',
+            'clientsatisfait_image' => 'image|nullable',
         ]);
 
         if ($request->hasFile('clientsatisfait_image')) {
@@ -105,7 +105,7 @@ class ClientSatisfaitController extends Controller
         //
         $this->validate($request, [
             'designation' => 'required',
-            'logo_client' => 'image|nullable|max:5999',
+            'logo_client' => 'image|nullable',
         ]);
 
         $clientsatisfait = ClientSatisfait::find($id);

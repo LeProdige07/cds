@@ -45,7 +45,7 @@ class PersonnelController extends Controller
             'names' => 'required',
             'poste' => 'required',
             'description' => 'required',
-            'personnel_image' => 'image|nullable|max:5999'
+            'personnel_image' => 'image|nullable'
         ]);
 
         if ($request->hasFile('personnel_image')) {
@@ -114,7 +114,7 @@ class PersonnelController extends Controller
             'names' => 'required',
             'poste' => 'required',
             'description' => 'required',
-            'personnel_image' => 'image|nullable|max:5999'
+            'personnel_image' => 'image|nullable'
         ]);
 
         $personnel = Personnel::find($id);

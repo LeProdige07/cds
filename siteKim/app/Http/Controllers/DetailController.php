@@ -48,7 +48,7 @@ class DetailController extends Controller
         $this->validate($request, [
             'name' => 'required',
             'description' => 'required',
-            'detail_image' => 'image|nullable|max:5999',
+            'detail_image' => 'image|nullable',
             'service' => 'required',
         ]);
 
@@ -115,7 +115,7 @@ class DetailController extends Controller
         $this->validate($request, [
             'detail_titre' => 'required',
             'detail_description' => 'required',
-            'detail_image' => 'image|nullable|max:5999',
+            'detail_image' => 'image|nullable',
             'service_id' => 'required',
         ]);
 
