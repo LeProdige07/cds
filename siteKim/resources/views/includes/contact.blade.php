@@ -88,11 +88,11 @@
                     <div class="col-md-3 text-center">
                         <ul class="list-unstyled mb-0">
                             <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                <p>Kinshasa/Gombe, Av Mwenwditu N°6, RDC</p>
+                                <p>RDC, Kinshasa/Gombe, Ave Colonel Ebeya 15-17, Immeuble connexafrica.</p>
                             </li>
 
                             <li><i class="fas fa-phone mt-2 fa-2x"></i>
-                                <p>(+243) 827868560</p>
+                                <p>(+243) 833362192</p>
                             </li>
 
                             <li><i class="fas fa-envelope mt-2 fa-2x"></i>
@@ -100,7 +100,7 @@
                             </li>
                             <li>
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.4934890099385!2d15.281714799999996!3d-4.317971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a33d971e41761%3A0xa9e0e70ccdefdb6d!2sAve%20Mwene-Ditu%2C%20Kinshasa!5e0!3m2!1sfr!2scd!4v1689178024433!5m2!1sfr!2scd"
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15913.80454594139!2d15.3296629588745!3d-4.32604145474635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a33d42e9780b9%3A0x333329339eecd29a!2sConnexAfrica%20-%20Agence%20de%20Kinshasa!5e0!3m2!1sfr!2scd!4v1689260165503!5m2!1sfr!2scd"
                                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </li>

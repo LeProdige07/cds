@@ -6,7 +6,7 @@
                 <div class="col-lg-8 col-md-8">
                     <ul class="top-info text-center text-md-left">
                         <li><i class="fas fa-map-marker-alt"></i>
-                            <p class="info-text">Kinshasa/Gombe, Av Mwenwditu N°6, RDC</p>
+                            <p class="info-text">RDC, Kinshasa/Gombe, Ave Colonel Ebeya 15-17, Immeuble connexafrica.</p>
                         </li>
                     </ul>
                 </div>
